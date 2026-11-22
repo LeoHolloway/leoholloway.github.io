@@ -77,7 +77,7 @@ In short, I'm expecting a level component and a putting component. I would also 
 It's worth noting that the ordering of the categories(SG for putting, around the green, approach, and off the tee) is not arbitrary. They are in order of increasing distance from the hole, which is why I expect somewhat interpretable results.
 
 ## Results
-![Average Strokes Gained Histogram](assets/good-golfer-plots/sg_histograms)
+![Average Strokes Gained Histogram](assets/good-golfer-plots/sg_histograms.png)
 This is a histogram of the 2015-2021 average (over tournaments) strokes gained for all players who played during this time and have SG data. Means and variances are contained in the table below. They're all pretty left-skewed.
 
 | Type| Mean | Variance |
