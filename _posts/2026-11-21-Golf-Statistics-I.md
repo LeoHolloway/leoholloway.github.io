@@ -1,4 +1,3 @@
-# Golf Statistics I
 The project I write about in this post is on my GitHub, in good-golfer.
 
 ## When did golf stats become important?
