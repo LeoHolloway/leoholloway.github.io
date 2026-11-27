@@ -1,3 +1,8 @@
+---
+title: Golf Statistics I
+date: 2026-11-21
+---
+
 The project I write about in this post is on my GitHub, in good-golfer.
 
 ## When did golf stats become important?
@@ -76,7 +81,7 @@ In short, I'm expecting a level component and a putting component. I would also 
 It's worth noting that the ordering of the categories(SG for putting, around the green, approach, and off the tee) is not arbitrary. They are in order of increasing distance from the hole, which is why I expect somewhat interpretable results.
 
 ## Results
-![Average Strokes Gained Histogram](assets/good-golfer-plots/sg_histograms.png)
+![Average Strokes Gained Histogram](/assets/good-golfer-plots/sg_histograms.png)
 This is a histogram of the 2015-2021 average (over tournaments) strokes gained for all players who played during this time and have SG data. Means and variances are contained in the table below. They're all pretty left-skewed.
 
 | Type| Mean | Variance |
@@ -92,7 +97,7 @@ It's hard to read into this as much as I'd like to. One problem is that there ar
 ### Why are SG means below 0?
 SG is normalized to 0 over the field for each round. However, a player that makes the cut plays twice as many rounds as one that doesn't, and good players are more likely to make the cut. So, it makes sense that the player average is below 0.
 
-![Unscaled PCA Loadings](assets/good-golfer-plots/unscaled_pca_loadings.png)
+![Unscaled PCA Loadings](/assets/good-golfer-plots/unscaled_pca_loadings.png)
 
 The unscaled PCA loadings should give us some insight into what makes you save more strokes, which is the same thing as being better. 
 
@@ -109,7 +114,7 @@ We weren't necessarily expecting these results to be super nice, since the varia
 
 To summarize, it looks like the biggest differences in score come from being unilaterally better than others, and the biggest differences in how players' SG stats look after adjusting for this come from how good they are at short game compared to long game, especially putting compared to long game.
 
-![Scaled PCA Loadings](assets/good-golfer-plots/scaled_pca_loadings.png)
+![Scaled PCA Loadings](/assets/good-golfer-plots/scaled_pca_loadings.png)
 
 ### What do the scaled results mean?
 You can think of this as comparing how being skilled at each thing, normalized, changes with being skilled at the other things. This should give some very strong indication towards which skills are most related to others.
@@ -140,4 +145,4 @@ This pattern of PCs shows up in data with a natural order(e.g. maturities for yi
 
 If you're interested, this kind of thing is more formally treated in spectral theory, more specifically in the study of oscillatory systems. I hadn't heard of this stuff at all before.
 
-![](assets/img/bull/tiger.jpeg)
+![](/assets/img/bull/tiger.jpeg)
