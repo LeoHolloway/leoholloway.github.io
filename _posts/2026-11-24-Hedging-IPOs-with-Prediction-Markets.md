@@ -137,5 +137,3 @@ The tables/figures gave me some great perspective on
 [^1]: **Trends in IPO Pops**, Phil Mackintosh, 03/04/2021. https://www.nasdaq.com/articles/trends-in-ipo-pops-2021-03-04
 
 [^2]: **Initial Public Offerings: Updated Statistics**, Jay Ritter, 11/05/2026. https://site.warrington.ufl.edu/ritter/files/IPO-Statistics.pdf
-
-![]()
