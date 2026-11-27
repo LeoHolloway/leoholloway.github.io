@@ -1,6 +1,8 @@
 ---
 title: Golf Statistics I
 date: 2026-11-21
+categories: [Projects]
+tags: [sports, golf, PCA]
 ---
 
 The project I write about in this post is on my GitHub, in good-golfer.

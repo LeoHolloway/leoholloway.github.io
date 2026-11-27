@@ -1,6 +1,8 @@
 ---
 title: Hedging IPOs with Prediction Markets
 date: 2026-11-24
+categories: [Research]
+tags: [markets, ipos, derivatives]
 math: true
 ---
 
